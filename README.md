@@ -9,9 +9,7 @@
 ## 环境要求
 
 1. php ~8.1.0 || ~8.2.0
-2. thinkphp ^5.1.10 || ^6.0.0
-
-> 2.x 要求 PHP 8.1 以上，8.0及以下请使用1.x
+2. thinkphp ^5.1.10 || ^6.0.0 || ^8.0.0
 
 ## 说明
 > 目前支持如下三大类型加密方式：RSA,HASH,DSA。再各分256、384、512位。
@@ -45,7 +43,7 @@
 第一步:
 
 ```shell
-$ composer require thans/tp-jwt-auth
+$ composer require chumoe/tp-jwt-auth
 ```
 
 
